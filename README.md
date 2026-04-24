@@ -14,6 +14,8 @@
 
 ### Loading Styling
 
+[Loading Styling - Server](https://hw-ahj-workers-loading-styling-backend.vercel.app)
+
 #### Легенда
 
 Сейчас модно показывать интерфейсы загрузки вроде следующего:
