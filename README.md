@@ -14,7 +14,7 @@
 
 ### Loading Styling
 
-[Loading Styling - Server](https://hw-ahj-workers-loading-styling-backend.vercel.app)
+[Loading Styling - Server](https://hw-ahj-workers-loading-styling-back.vercel.app)
 
 #### Легенда
 
