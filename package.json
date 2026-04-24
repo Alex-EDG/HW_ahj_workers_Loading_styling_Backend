@@ -1,0 +1,42 @@
+{
+  "name": "hw-ahj-workers-loading-styling-backend",
+  "version": "1.0.0",
+  "description": "WebWorkers, ServiceWorkers - Loading styling - Backend",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "stop": "forever stop server.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-EDG/HW_ahj_workers_Loading_styling_Backend.git"
+  },
+  "author": "Alexey Neronov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alex-EDG/HW_ahj_workers_Loading_styling_Backend/issues"
+  },
+  "homepage": "https://github.com/Alex-EDG/HW_ahj_workers_Loading_styling_Backend#readme",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "forever": "^3.0.4",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa-slow": "^2.1.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  }
+}
